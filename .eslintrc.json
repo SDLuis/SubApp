@@ -18,6 +18,9 @@
         "react"
     ],
     "rules": {
-        "quotes": [2, "single", { "avoidEscape": true }]
+        "quotes": [2, "single", { "avoidEscape": true }],
+        "no-case-declarations": "off",
+        "react/react-in-jsx-scope": "off",
+        "@typescript-eslint/consistent-type-imports": "off"
     }
 }
